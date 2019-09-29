@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  /*background-color: dimgrey;*/
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+a{ text-decoration: none}
+
+.main-page {
+  text-align: center;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: sans-serif;
+}

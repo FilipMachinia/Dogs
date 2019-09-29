@@ -1,0 +1,18 @@
+.main-page {
+  text-align: center;
+  height: 90vh;
+  display: flex;
+  flex-direction: column !important;
+  justify-content: center;
+  font-family: sans-serif;
+}
+#map {
+  height: 80%;
+  max-height: 600px;
+  width:600px;
+  /*height:500px;*/
+  border-radius: 20px
+}
+.backBtn{
+  margin: 15px;
+}

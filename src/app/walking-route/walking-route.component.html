@@ -1,0 +1,14 @@
+<div class="main-page" fxLayoutAlign=" center">
+
+  <button class="backBtn" mat-raised-button (click)="goBack()">Go back</button>
+
+  <div *ngIf="!loading">
+    <h3>Walk ID: {{animalRoute}}, Snacks: {{snacks}}</h3>
+    <p  class="fas fa-2x fa-walking"></p>
+
+  </div>
+  <div id="map"></div>
+  <div class="loading" *ngIf="loading">
+    <mat-spinner></mat-spinner>
+  </div>
+</div>

@@ -1,0 +1,14 @@
+<div class="main-page">
+
+  <h1>Dog Snack Calculator.</h1>
+  <i class="fas fa-2x fa-bone"></i>
+
+  <div *ngFor="let route of walksArray; let i = index;">
+    <p>{{route.id}} - {{route.name}} - <a [routerLink]="['/route', i+1]">Show map</a></p>
+  </div>
+
+  <div class="loading" *ngIf="loading">
+    <mat-spinner></mat-spinner>
+  </div>
+
+</div>
